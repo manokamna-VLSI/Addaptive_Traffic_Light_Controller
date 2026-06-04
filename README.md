@@ -30,6 +30,38 @@ This project implements an Adaptive Traffic Light Controller using VHDL and Fini
 * VHDL
 * Xilinx Vivado
 * Spartan-7 FPGA
+  ## Simulation Results
+
+### Traffic Light State Transitions
+
+![Waveform](output waveform.png)
+
+### FSM Operation
+
+The waveform shows the state transitions:
+
+* S0 → North-South Green
+* S1 → North-South Yellow
+* S2 → East-West Green
+* S3 → East-West Yellow
+
+### Adaptive Timing Verification
+
+The controller dynamically adjusts green-light duration based on:
+
+* NS_traffic input
+* EW_traffic input
+
+### Counter and Timer Analysis
+
+The simulation verifies:
+
+* State transitions
+* Counter operation
+* Green light timing
+* Yellow light timing
+* Adaptive traffic control logic
+
 
 ## Applications
 
