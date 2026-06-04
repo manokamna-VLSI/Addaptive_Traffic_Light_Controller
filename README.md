@@ -32,10 +32,6 @@ This project implements an Adaptive Traffic Light Controller using VHDL and Fini
 * Spartan-7 FPGA
   ## Simulation Results
 
-### Traffic Light State Transitions
-
-![Waveform](output waveform.png)
-
 ### FSM Operation
 
 The waveform shows the state transitions:
@@ -68,3 +64,6 @@ The simulation verifies:
 * Smart Traffic Management
 * Intelligent Transportation Systems
 * Urban Traffic Control
+
+## Complete Waveform
+![Waveform](Output waveform.PNG)
