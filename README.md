@@ -66,4 +66,4 @@ The simulation verifies:
 * Urban Traffic Control
 
 ## Complete Waveform
-![Waveform](Output waveform.PNG)
+![Waveform](waveform.PNG)
